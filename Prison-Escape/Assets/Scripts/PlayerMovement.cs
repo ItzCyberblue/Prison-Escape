@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 
 		Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-		moveVelocity = input.normalized * speed;
+		moveVelocity = input * speed;
 
 	}
 
