@@ -32,6 +32,7 @@ public class Patrol : MonoBehaviour
 			{
 
 				randPos = Random.Range(0, positions.Length);
+				Debug.Log("Chosen Spot: " + randPos);
 				waitTime = startWaitTime;
 
 			}
