@@ -11,6 +11,7 @@ public class PlayerInventory
                 return ItemList[i];
             }
         }
+        return new Item();
     }
     public Item getItem(int index){
         return ItemList[index];
@@ -28,5 +29,6 @@ public class PlayerInventory
                 return i;
             }
         }
+        return -1;
     }
 }
