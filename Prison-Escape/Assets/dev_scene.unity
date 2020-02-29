@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 1418716732}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -396,6 +396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  sprintSpeed: 12
+  stamina: 500
 --- !u!61 &1418716733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -509,6 +511,7 @@ GameObject:
   - component: {fileID: 1455051919}
   - component: {fileID: 1455051918}
   - component: {fileID: 1455051921}
+  - component: {fileID: 1455051922}
   m_Layer: 0
   m_Name: Patrol Officer
   m_TagString: Untagged
@@ -609,7 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 831fa73ec54009948abbc3dc05ca64d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 4
   startWaitTime: 2
   positions:
   - {fileID: 653121497}
@@ -621,6 +624,17 @@ MonoBehaviour:
   - {fileID: 161609953}
   - {fileID: 1092130339}
   - {fileID: 600210080}
+--- !u!114 &1455051922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455051917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a909a2a6bc38a58448a960c199befb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1496368883
 GameObject:
   m_ObjectHideFlags: 0
