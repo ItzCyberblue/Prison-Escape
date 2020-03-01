@@ -28,7 +28,7 @@ public class Entity : MonoBehaviour {
         maxHealth = health;
         maxStamina = stamina;
     }
-    public void Die(){
+    public abstract void Die(){
         
     }
 }
