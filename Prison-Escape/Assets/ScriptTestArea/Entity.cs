@@ -11,8 +11,18 @@ public class Entity : MonoBehaviour {
     public int Stamina{
         get; set;
     }
-    public Entity(){
-
+    private int maxHealth;
+    public int MaxHealth{
+        get; set;
+    }
+    private int maxStamina;
+    public int MaxStamina{
+        get; set;
+    }
+    public Entity(){}
+    public Entity(int health, int stamina){
+        maxHealth = health;
+        maxStamina = stamina;
     }
     public abstract void Die(){
         
