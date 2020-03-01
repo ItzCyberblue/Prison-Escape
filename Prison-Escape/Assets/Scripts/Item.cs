@@ -15,7 +15,7 @@ public class Item
     public string Description{
         get; set;
     }
-    enum Stats{ Health, Stamina, Strength }
+    public enum Stats{ Health, Stamina, Strength }
     private int statEffected;
     public int StatEffected{ 
         get; set;
@@ -23,11 +23,12 @@ public class Item
     public Item() {
         name = String.Empty;
         description = String.Empty;
-        statEffected = (int) Stats.Health;
+        statEffected = -1;
     }
-    public Item(string name, string description, int statEffected) {
+    public Item(string name, string description) {
         this.name = name;
         this.description = description;
-        this.statEffected = statEffected;
+        statEffected = -1;
     }
+    
 }
