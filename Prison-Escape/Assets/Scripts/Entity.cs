@@ -23,7 +23,7 @@ public class Entity : MonoBehaviour {
     public int MaxStamina{
         get; set;
     }
-    public Entity(){}
+    public Entity){}
     public Entity(int health, int stamina){
         maxHealth = health;
         maxStamina = stamina;

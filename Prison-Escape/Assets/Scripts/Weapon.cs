@@ -23,11 +23,15 @@ public class Weapon : Item {
         attackDamage = valueEffected;
         this.durability = durability;
     }
+    // Returns true if the entity died
     public bool Attack(Entity victim){
         victim.Health -= attackDamage;
         if(victim.Health >= 0){
             victim.Die();
+            return true;
         }
+
+        return false;
     }
     
 }
