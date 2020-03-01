@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Handler : MonoBehaviour 
 {
@@ -21,11 +22,12 @@ public class Handler : MonoBehaviour
 
 	}
 
-	public void KillPlayer()
+	public static void KillPlayer()
 	{
 
 		player_dead = true;
 		Debug.Log("Player is dead");
+		SceneManager.LoadScene(1);
 
 	}
 
