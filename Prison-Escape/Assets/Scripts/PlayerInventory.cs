@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInventory
+public class PlayerInventory : MonoBehaviour
+
 {
     public List<Item> ItemList;
     public Item getItem(string name){
