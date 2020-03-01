@@ -14,7 +14,7 @@ public class Entity : MonoBehaviour {
     public Entity(){
 
     }
-    public void Die(){
+    public abstract void Die(){
         
     }
 }
