@@ -25,6 +25,8 @@ public class Entity : MonoBehaviour {
         maxStamina = stamina;
     }
     public abstract void Die(){
-        
+        if(Health <= 0)
+    {
+        Destroy(gameObject);
     }
 }
