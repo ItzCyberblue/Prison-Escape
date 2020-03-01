@@ -4,6 +4,7 @@
     <list default="true" id="688c5ea0-8655-492b-b49c-5752c8c5015f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prison-Escape.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prison-Escape.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Consumables.cs" />
+        <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" />
+        <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" />
       </list>
     </option>
   </component>
@@ -35,6 +39,12 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -61,8 +71,16 @@
       <updated>1582859124064</updated>
       <workItem from="1582859135525" duration="184000" />
       <workItem from="1582991497519" duration="30000" />
-      <workItem from="1583086015997" duration="1410000" />
+      <workItem from="1583086015997" duration="2254000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed Unity Errors">
+      <created>1583087578889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583087578889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Fixed Unity Errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Unity Errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
