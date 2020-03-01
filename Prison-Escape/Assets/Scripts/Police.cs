@@ -10,6 +10,7 @@ public class Police : Entity {
     public Police() : base(){
 
     }
+    public Police(int health , int stamina) : base(health, stamina){}
     public override void Die(){
         
         Destroy(gameObject.PatrolOfficer);
