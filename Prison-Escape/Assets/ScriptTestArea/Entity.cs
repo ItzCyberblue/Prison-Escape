@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Entity : MonoBehaviour {
+    private string name;
+    public string Name{
+        get; set;
+    }
     private int health;
     public int Health{
         get; set;
@@ -24,7 +28,7 @@ public class Entity : MonoBehaviour {
         maxHealth = health;
         maxStamina = stamina;
     }
-    public abstract void Die(){
+    public void Die(){
         
     }
 }
