@@ -11,6 +11,8 @@ public class Police : Entity {
 
     }
     public override void Die(){
-
+        
+        Destroy(gameObject.PatrolOfficer);
+        
     }
 }
