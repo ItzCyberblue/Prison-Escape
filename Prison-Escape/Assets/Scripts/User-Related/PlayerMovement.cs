@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 		{
 
 			speed = sprintSpeed;
-			self.Stamina -= loseRate;
+			self.Stamina -= (int) loseRate;
 
 		}
 
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
 		{
 
 			speed = 10f;
-			self.Stamina += gainRate;
+			self.Stamina += (int) gainRate;
 
 		}
 
