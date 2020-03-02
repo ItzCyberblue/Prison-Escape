@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688c5ea0-8655-492b-b49c-5752c8c5015f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSharpCompileTest/yourmom/jerome.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prison-Escape.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prison-Escape.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Prisoner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Prisoner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/User-Related/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/User-Related/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +19,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CSharpCompileTest/yourmom/jerome.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/User-Related/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Prisoner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Consumables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/NPCs/Patrol.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSharpCompileTest/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prison-Escape/Assets/Scripts/PlayerInventory.cs" root0="SKIP_HIGHLIGHTING" />
@@ -38,8 +39,6 @@
         <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Police.cs" />
         <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/Entity.cs" />
         <option value="$PROJECT_DIR$/Prison-Escape/Assets/Scripts/User-Related/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/CSharpCompileTest/yourmom/jerome.cs" />
-        <option value="$PROJECT_DIR$/CSharpCompileTest/Program.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +80,7 @@
       <updated>1582859124064</updated>
       <workItem from="1582859135525" duration="184000" />
       <workItem from="1582991497519" duration="30000" />
-      <workItem from="1583086015997" duration="17236000" />
+      <workItem from="1583086015997" duration="15936000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Unity Errors">
       <created>1583087578889</created>
@@ -97,14 +96,7 @@
       <option name="project" value="LOCAL" />
       <updated>1583088355052</updated>
     </task>
-    <task id="LOCAL-00003" summary="Fixed Stamina as listed in Trello board, waiting for confirmation of no errors">
-      <created>1583114883141</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583114883141</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,8 +121,7 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Fixed Unity Errors" />
     <MESSAGE value="Added Entity GameObject" />
-    <MESSAGE value="Fixed Stamina as listed in Trello board, waiting for confirmation of no errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Stamina as listed in Trello board, waiting for confirmation of no errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Entity GameObject" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
