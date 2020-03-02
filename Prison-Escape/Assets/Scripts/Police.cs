@@ -21,12 +21,11 @@ public class Police : Entity {
 
     public Police(int health , int stamina) : base(health, stamina){}
     public Police(int health, int stamina, GameObject g) : base(health, stamina, g){}
-    
 
     public override void Die(){
         
         Destroy(PatrolOfficer);
-        Destroy(gObject);
+        Destroy(GameObject.Find("g"));
         
     }
 }
