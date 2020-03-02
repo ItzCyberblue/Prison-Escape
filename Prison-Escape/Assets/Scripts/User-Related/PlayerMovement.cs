@@ -24,51 +24,34 @@ public class PlayerMovement : MonoBehaviour
 		self.Stamina = stamina;
 		
 	}
-
 	void Update()
 	{
-
 		Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 		moveVelocity = input * speed;
-
 		if (Input.GetKeyDown(KeyCode.LeftShift) && walking == false)
 		{
-
 			speed = sprintSpeed;
 			self.Stamina -= loseRate;
-
 		}
-
 		if(Input.GetKeyUp(KeyCode.LeftShift))
 		{
-
 			speed = 10f;
 			self.Stamina += gainRate;
-
 		}
-
 		if(stamina <= 0)
 		{
-
 			speed = 10f;
 			walking = true;
-
 		}
-
 		if(stamina >= stamina_max)
 		{
 			walking = false;
 			self.Stamina = self.MaxStamina;
-
 		}
-
 	}
-
 	void FixedUpdate()
 	{
-
 		rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
-
 	}
 
 }
