@@ -2,49 +2,48 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Entity : MonoBehaviour
+namespace Character
 {
-    private GameObject gObject;
-
-    public GameObject GObject { 
-        get; set;
-    }
-    private string name;
-    public string Name{
-        get; set;
-    }
-    private int health;
-    public int Health{
-        get; set;
-    }
-    private int stamina;
-    public int Stamina{
-        get; set;
-    }
-    private int maxHealth;
-    public int MaxHealth{
-        get; set;
-    }
-    private int maxStamina;
-    public int MaxStamina{
-        get; set;
-    }
-    public Entity){}
-    public Entity(int health, int stamina){
-        maxHealth = health;
-        maxStamina = stamina;
-    }
-
-    public Entity(int health, int stamina, GameObject g)
+    public class Entity : MonoBehaviour
     {
-        maxHealth = health;
-        maxStamina = stamina;
-        gObject = g;
+        private GameObject gObject;
+
+        public GameObject GObject { 
+            get; set;
+        }
         
+        public string Name{
+            get; set;
+        }
+        
+        public int Health{
+            get; set;
+        }
+        
+        public int Stamina{
+            get; set;
+        }
+        
+        public int MaxHealth{
+            get; set;
+        }
+        
+        public int MaxStamina{
+            get; set;
+        }
+        public Entity){}
+        public Entity(int health, int stamina){
+            MaxHealth = health;
+            MaxStamina = stamina;
+        }
+
+        public Entity(int health, int stamina, GameObject g)
+        {
+            MaxHealth = health;
+            MaxStamina = stamina;
+            GObject = g;
+        
+        }
+
+        public abstract void Die();
     }
-    public abstract void Die(){
-        if(Health <= 0)
-    {
-        Destroy(gameObject);
-    }
-}

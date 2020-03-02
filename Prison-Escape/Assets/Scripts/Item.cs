@@ -3,20 +3,16 @@ using System.Collections.Generic;
 
 public class Item
 {
-    private int value;
     public int Value{
         get; set;
     }
-    private string name;
     public string Name{
         get; set;
     }
-    private string description;
     public string Description{
         get; set;
     }
     public enum Stats{ Health, Stamina, Strength }
-    private int statEffected;
     public int StatEffected{ 
         get; set;
     }
@@ -26,8 +22,8 @@ public class Item
         statEffected = -1;
     }
     public Item(string name, string description) {
-        this.name = name;
-        this.description = description;
+        this.Name = name;
+        this.Description = description;
         statEffected = -1;
     }
     
