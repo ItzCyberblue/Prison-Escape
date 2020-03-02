@@ -8,19 +8,15 @@ public class Patrol : MonoBehaviour
 	public float speed;
 	private float waitTime;
 	public float startWaitTime;
-	public float startTimeBtwShots;
-	public float TimeBtwShots;
+
 	public Transform[] positions;
 	private int randPos;
-	public GameObject projectile;
+
 	void Start()
 	{
 
 		waitTime = startWaitTime;
 		randPos = Random.Range(0, positions.Length);
-
-		TimeBtwShots = startTimeBtwShots;
-
 
 	}
 
@@ -46,17 +42,8 @@ public class Patrol : MonoBehaviour
 
 			}
 
-			if(TimeBtwShots <= 0){
-
-			Instantiate(projectile, transform.position, Quaternion.identity);
-			TimeBtwShots = startTimeBtwShots;
-
-		} else {
-
-			TimeBtwShots -= Time.deltaTime;
-
 		}
 
 	}
-	}
-	}
+
+}
