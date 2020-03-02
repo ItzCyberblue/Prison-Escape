@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Entity : MonoBehaviour {
+public  abstract class  Entity : MonoBehaviour {
     private string name;
     public string Name{
         get; set;
@@ -28,9 +28,5 @@ public class Entity : MonoBehaviour {
         maxHealth = health;
         maxStamina = stamina;
     }
-    public abstract void Die(){
-        if(Health <= 0)
-    {
-        Destroy(gameObject);
-    }
+    public abstract void Die();
 }
