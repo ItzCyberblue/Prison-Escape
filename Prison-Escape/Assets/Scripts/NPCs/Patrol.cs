@@ -47,8 +47,8 @@ public class Patrol : MonoBehaviour
 			}
 
 			if(TimeBtwShots <= 0){
-				
-			Instantiate(projectile, transform.position, Quaternion.idenity);
+
+			Instantiate(projectile, transform.position, Quaternion.identity);
 			TimeBtwShots = startTimeBtwShots;
 
 		} else {
@@ -58,5 +58,5 @@ public class Patrol : MonoBehaviour
 		}
 
 	}
-
-}
+	}
+	}
