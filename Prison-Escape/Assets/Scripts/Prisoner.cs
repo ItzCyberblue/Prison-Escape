@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Character;
 public class Prisoner : Entity {
     public enum State{
         Aggressive,

@@ -17,14 +17,14 @@ public class Item
         get; set;
     }
     public Item() {
-        name = String.Empty;
-        description = String.Empty;
-        statEffected = -1;
+        Name = String.Empty;
+        Description = String.Empty;
+        StatEffected = -1;
     }
     public Item(string name, string description) {
         this.Name = name;
         this.Description = description;
-        statEffected = -1;
+        StatEffected = -1;
     }
     
 }
