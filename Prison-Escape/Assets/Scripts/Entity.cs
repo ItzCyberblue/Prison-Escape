@@ -31,7 +31,7 @@ namespace Character
         public int MaxStamina{
             get; set;
         }
-        public Entity){}
+        public Entity(){}
         public Entity(int health, int stamina){
             MaxHealth = health;
             MaxStamina = stamina;
@@ -47,3 +47,4 @@ namespace Character
 
         public abstract void Die();
     }
+}
