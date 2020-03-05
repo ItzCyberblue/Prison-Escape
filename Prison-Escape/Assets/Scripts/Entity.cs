@@ -45,6 +45,8 @@ namespace Character
         
         }
 
-        public abstract void Die();
+        public void Die(){
+            
+        }
     }
 }
