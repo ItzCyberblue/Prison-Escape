@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Character;
+using PrisonEscape.Character;
 public class PlayerMovement : MonoBehaviour 
 {
 	[SerializeField] private float speed;
