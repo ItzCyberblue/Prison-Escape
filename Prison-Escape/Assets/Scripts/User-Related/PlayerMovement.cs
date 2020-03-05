@@ -58,7 +58,8 @@ public class PlayerMovement : MonoBehaviour
 		if(stamina >= stamina_max)
 		{
 			walking = false;
-			self.Stamina = self.MaxStamina;
+            int maxStamina = self.MaxStamina;
+            self.Stamina = maxStamina;
 
 		}
 
