@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Character
+namespace PrisonEscape.Character
 {
     public class Entity : MonoBehaviour
     {
