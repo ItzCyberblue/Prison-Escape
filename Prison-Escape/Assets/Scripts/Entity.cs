@@ -46,7 +46,7 @@ namespace Character
         }
 
         public void Die(){
-            
+
         }
     }
 }

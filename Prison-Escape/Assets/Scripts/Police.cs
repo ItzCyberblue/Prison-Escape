@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Character;
 public class Police : Entity {
+
+    public GameObject gObject;
     public enum State{
         Aggressive,
         Passive,
@@ -15,9 +17,7 @@ public class Police : Entity {
     public Police(int health, int stamina, GameObject g) : base(health, stamina, g){}
     
 
-    public override void Die(){
-        
+    public void Die(){
         Destroy(gObject);
-        
     }
 }

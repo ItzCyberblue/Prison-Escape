@@ -8,7 +8,7 @@ public class Prisoner : Entity {
         Passive
     }
     public Prisoner() : base(){}
-    public override void Die(){
-
+    public void Die(){
+        
     }
 }

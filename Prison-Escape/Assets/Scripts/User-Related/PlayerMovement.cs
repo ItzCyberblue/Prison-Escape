@@ -20,8 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
 		rb = this.GetComponent<Rigidbody2D>();
 		self = this.GetComponent<Entity>();
-		self.MaxStamina = stamina_max;
-		self.Stamina = stamina;
+		self.MaxStamina = (int) stamina_max;
+		self.Stamina = (int) stamina;
 		
 	}
 
