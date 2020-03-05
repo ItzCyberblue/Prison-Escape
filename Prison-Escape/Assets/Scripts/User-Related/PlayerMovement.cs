@@ -12,14 +12,11 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] public bool walking;
 	[SerializeField] private float loseRate = 40f;
 	[SerializeField] private float gainRate = 60f;
-	private Rigidbody2D rb;
-	private Vector2 moveVelocity;
+	private Rigidbody2D rb = this.GetComponent<Rigidbody2D>();
+	private Vector2 moveVelocity = this.GetComponent<Entity>();
 	private Entity self;
 	void Start()
 	{
-
-		rb = this.GetComponent<Rigidbody2D>();
-		self = this.GetComponent<Entity>();
 		self.MaxStamina = stamina_max;
 		self.Stamina = stamina;
 		
