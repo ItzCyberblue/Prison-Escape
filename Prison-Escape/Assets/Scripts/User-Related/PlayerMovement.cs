@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Character;
+using PrisonEscape.Character;
 public class PlayerMovement : MonoBehaviour 
 {
 	[SerializeField] private float speed;
@@ -17,8 +17,10 @@ public class PlayerMovement : MonoBehaviour
 	private Entity self;
 	void Start()
 	{
-		self.MaxStamina = stamina_max;
-		self.Stamina = stamina;
+rb = this.GetComponent<Rigidbody2D>();
+		self = this.GetComponent<Entity>();
+		self.MaxStamina = (int) stamina_max;
+		self.Stamina = (int) stamina;
 		
 	}
 
@@ -55,7 +57,8 @@ public class PlayerMovement : MonoBehaviour
 		if(stamina >= stamina_max)
 		{
 			walking = false;
-			self.Stamina = self.MaxStamina;
+            int maxStamina = self.MaxStamina;
+            self.Stamina = maxStamina;
 
 		}
 
